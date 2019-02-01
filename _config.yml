@@ -188,7 +188,7 @@ exclude:
   - Vagrantfile
 
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
