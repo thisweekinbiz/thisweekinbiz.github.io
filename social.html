@@ -1,13 +1,12 @@
 ---
 layout: page
-title: This Week in Biz 2
+title: This Week in Biz
 subtitle: This is where I will tell my friends way too much about me
 use-site-title: true
-paginate_path: "/business/page:num/"
 ---
 
 <div class="posts-list">
-  {% for post in page.posts %}
+  {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
 	  <h2 class="post-title">{{ post.title }}</h2>
