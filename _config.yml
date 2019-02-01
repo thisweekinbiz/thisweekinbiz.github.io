@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: THIS WEEK IN BIZ2
+title: THIS WEEK IN BIZ 3
 
 # Short description of your site
 description: Your weekly dose of Business
@@ -157,21 +157,21 @@ kramdown:
   input: GFM
 
 # Default YAML values (more information on Jekyll's site)
-#defaults:
-#  -
-#    scope:
-#      path: ""
-#      type: "posts"
-#    values:
-#      layout: "post"
-#     comments: true  # add comments to all blog posts
-#      social-share: true # add social media sharing buttons to all blog posts
-#  -
-#    scope:
-#      path: "" # all files
-#    values:
-#      layout: "page"
-#      show-avatar: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+     comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
 
 # Use tags index page and make tags on each post clickable
 link-tags: true
