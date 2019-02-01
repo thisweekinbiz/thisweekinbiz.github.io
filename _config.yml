@@ -24,6 +24,7 @@ description: Your weekly dose of Business
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Business: "business"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
