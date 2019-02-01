@@ -5,7 +5,7 @@ paginate_path: "/business/page:num/"
 ---
 
 <ul>
-  {% for post in page.posts %}
+  {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
